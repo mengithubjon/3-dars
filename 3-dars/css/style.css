@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(105, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    position: absolute;
+    left: 15%;
+    background-color: #2c3e50;
+    height: 450px;
+    width: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    flex-direction: column;
+}
+.circle {
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+
+}
+.circle.yellow {
+    background-color: rgb(247, 225, 30);
+    box-shadow: 0 0 25px rgb(247, 225, 30);
+}
+.circle.green {
+    background-color: rgb(45, 165, 51);
+    box-shadow: 0 0 25px rgb(45, 165, 51);
+}
+.button1 {
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 30px;
+}
+.button2 {
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 40px;
+}
+.button3 {
+    font-size: 20px;
+    margin: 40px;
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: darkred;
+    transition: .4s;
+    transform: scale(1.5);
+}
+.button2:hover {
+    background-color: darkgoldenrod;
+    transition: .4s;
+    transform: scale(1.5);
+}
+.button3:hover {
+    background-color: darkgreen;
+    transition: .4s;
+    transform: scale(1.5);
+}
